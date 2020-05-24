@@ -1,9 +1,29 @@
-
-  .container {
+.container {
 
     @media @desktop {
         width: 1140px;
         margin: 0 auto;
         padding: 0 @spacebetween;
     }
+}
+
+ .inner {
+     display: flex;  
+     justify-content: center;
+
+
+    @media @desktop {
+        width: 1140px;
+        margin: 0 auto;
+        padding: 0 @spacebetween;
+    }
+}
+
+.tiles {
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.end {
+    text-transform: uppercase;
 }
