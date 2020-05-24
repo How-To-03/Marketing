@@ -4,8 +4,21 @@
         width: 1140px;
         margin: 0 auto;
         padding: 0 @spacebetween;
-    }
+
 }
+}
+
+.logo-image {
+
+    @media @mobile {
+        margin-top: @spacebetween;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+}
+
+
 
  .inner {
      display: flex;  
@@ -16,14 +29,29 @@
         width: 1140px;
         margin: 0 auto;
         padding: 0 @spacebetween;
+
+        
     }
 }
+ 
 
 .tiles {
     display: flex;
     justify-content: space-evenly;  
+    margin-top: @spacebetween;
+
+    @media @mobile {
+        margin-top: @spacebetween;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
 
 .end {
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-bottom: @spacebetween;
+    margin-top: @spacebetween;
 }
