@@ -235,6 +235,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   text-transform: uppercase;
+  color: #B0ACAD;
 }
 .end {
   text-transform: uppercase;
