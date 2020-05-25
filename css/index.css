@@ -222,6 +222,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin-top: 2.5rem;
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   .tiles {
@@ -229,6 +230,11 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+}
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
 }
 .end {
   text-transform: uppercase;
