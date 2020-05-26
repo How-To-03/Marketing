@@ -157,7 +157,7 @@ h2 {
 }
 .tiles img:hover {
   opacity: 1;
-  border: none;
+  border: 4px double #65D6D7;
 }
 .container header {
   margin-bottom: 2.5rem;
