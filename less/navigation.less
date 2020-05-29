@@ -1,0 +1,31 @@
+.container {
+
+    header {
+        margin-bottom: @spacebetween;
+
+        @media @desktop {
+            border: 0;
+        }
+
+    nav {
+        display: flex;
+        font-size: .8rem;
+        justify-content: space-around;
+        
+      
+       
+         @media @mobile {
+            margin-top: @spacebetween;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        a {
+            text-decoration: none;
+            line-height: 6rem;
+            text-transform: uppercase;
+            border: 5px;
+        }
+    }
+}
+}
